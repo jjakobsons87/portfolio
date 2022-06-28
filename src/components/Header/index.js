@@ -12,11 +12,11 @@ function Header(props) {
     } = props;
 
     return (
-        <header className="nav-row">
+        <header className="navRow">
             <h2>
                 <a className="mainPage" href="/">
-                    <img className="iconPic" src={require('../../assets/images/OST_Kickoff_Headshots-262.jpg')}
-                    alt="Author Headshot"
+                    <img className="iconPic" src={require('../../assets/images/avatar.png')}
+                    alt="Author Avatar Memoji"
                     />
                     <div className="pageTitle">
                         Jeremy Jakobsons
@@ -36,11 +36,6 @@ function Header(props) {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-3">Resume</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link eventKey="disabled" disabled>
-                    Disabled
-                    </Nav.Link>
                 </Nav.Item>
             </Nav>
         </header>

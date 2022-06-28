@@ -19,6 +19,11 @@ function Footer() {
                         <AiFillLinkedin />
                     </a> 
                 </div>
+                <div>
+                    <a href='https://www.instagram.com/jeremyjako/'>
+                        <AiFillInstagram />
+                    </a>
+                </div>
             </div>
         </footer>
     )
