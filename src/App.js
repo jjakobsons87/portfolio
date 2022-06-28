@@ -1,19 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 // import ContactForm from './components/Contact';
-// import About from './components/About';
+import About from './components/About';
 
 function App() {
+  const [categories] = useState([
+    { name: "about me" },
+    { name: 'portfolio' },
+    { name: 'contact' },
+    { name: 'Resume' }
+  ]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   return (
     <div>
       <Header>
-        
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
       </Header>
       <main>
         <div>
-          {/* <About></About> */}
+          { currentCategory.name === 'About Me' && 
+          <About currentCategory={currentCategory}></About> }
           {/* <ContactForm></ContactForm> */}
         </div>
       </main>
