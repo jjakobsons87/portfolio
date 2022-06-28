@@ -55,6 +55,40 @@ code {
 }
 
 
+/* footer styling */
+
+footer {
+  margin-top: 20px;
+  background-color: var(--black);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+footer p {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  letter-spacing: .75px;
+}
+
+footer a {
+  font-size: 25px;
+  color: white;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
 @media screen and (max-width: 980px) {
 
