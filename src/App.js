@@ -7,20 +7,20 @@ import About from './components/About';
 
 function App() {
   const [categories] = useState([
-    { name: "about me" },
-    { name: 'portfolio' },
-    { name: 'contact' },
+    { name: 'About Me' },
+    { name: 'Portfolio' },
+    { name: 'Contact' },
     { name: 'Resume' }
   ]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
     <div>
-      <Header>
+      <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-      </Header>
+      ></Header>
       <main>
         <div>
           { currentCategory.name === 'About Me' && 

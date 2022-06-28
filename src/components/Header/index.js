@@ -12,29 +12,26 @@ function Header(props) {
     } = props;
 
     return (
-        <header className="navRow">
+        <header className="flex-row px-1">
             <h2>
                 <a className="mainPage" href="/">
                     <img className="iconPic" src={require('../../assets/images/avatar.png')}
                     alt="Author Avatar Memoji"
-                    />
-                    <div className="pageTitle">
-                        Jeremy Jakobsons
-                    </div>
+                    /> Jeremy Jakobsons
                 </a>
             </h2>
 
-            <Nav className="justify-content-end" activeKey="/home">
-                <Nav.Item>
+            <Nav className="flex-row justify-content-end" activeKey="/home">
+                <Nav.Item className="mx-2">
                     <Nav.Link href="/home">About Me</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="mx-2">
                     <Nav.Link eventKey="link-1">Portfolio</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="mx-2">
                     <Nav.Link eventKey="link-2">Contact</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
+                <Nav.Item className="mx-2">
                     <Nav.Link eventKey="link-3">Resume</Nav.Link>
                 </Nav.Item>
             </Nav>
