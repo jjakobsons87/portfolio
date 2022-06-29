@@ -3,8 +3,10 @@
   --purple: #9d6381;
   --liteBlue: #EDF6F9;
   --litegreen: #83c5be;
-  --green: #006d77
+  --green: #006d77;
+  background-color: var(--liteBlue);
 }
+
 
 body {
   margin: 0;
@@ -20,7 +22,11 @@ code {
     monospace;
 }
 
-/* nav styling  */
+/* header/nav styling  */
+
+header {
+  background-color: var(--litegreen);
+}
 
 .navRow {
   width: 100%;
@@ -54,6 +60,9 @@ code {
   flex-wrap: wrap;
 }
 
+/* about me styling  */
+
+
 
 /* footer styling */
 
@@ -72,16 +81,22 @@ footer p {
   font-weight: lighter;
   font-size: 1.5vw;
   letter-spacing: .75px;
+  justify-content: left;
 }
 
 footer a {
+  color: var(--green);
+  justify-content: right;
+}
+
+.footer-content {
   font-size: 25px;
   color: white;
   flex-direction: column;
   padding: 10px;
 }
 
-.footer-content {
+.footer-container {
   display: flex;
   width: 40%;
   margin: auto;

@@ -7,19 +7,19 @@ import { AiFillInstagram } from "react-icons/ai";
 function Footer() {
     return (
         <footer>
-            <div className='footer-content'>
-                <p>Created by Jeremy Jakobsons</p>
-                <div>
+            <div className='footer-container'>
+                <p> &copy; Created by Jeremy Jakobsons</p>
+                <div className='footer-content'>
                     <a href='https://github.com/jjakobsons87'>
                         <GoMarkGithub />
                     </a>
                 </div>
-                <div>
+                <div className='footer-content'>
                     <a href='https://www.linkedin.com/in/jeremy-jakobsons/'>
                         <AiFillLinkedin />
                     </a> 
                 </div>
-                <div>
+                <div className='footer-content'>
                     <a href='https://www.instagram.com/jeremyjako/'>
                         <AiFillInstagram />
                     </a>
