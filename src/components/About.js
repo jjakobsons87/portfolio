@@ -37,11 +37,11 @@ class About extends Component {
         const name = this.props.data.name;
         const profilepic = "images/" + this.props.data.image;
         const bio = this.props.data.bio;
-        const street = this.props.data.address.street;
-        const city = this.props.data.address.city;
-        const state = this.props.data.address.state;
-        const zip = this.props.data.address.zip;
-        const phone = this.props.data.phone;
+        // const street = this.props.data.address.street;
+        // const city = this.props.data.address.city;
+        // const state = this.props.data.address.state;
+        // const zip = this.props.data.address.zip;
+        // const phone = this.props.data.phone;
         const email = this.props.data.email;
         const resumeDownload = this.props.data.resumedownload;
 
@@ -66,13 +66,13 @@ class About extends Component {
                     <p className="address">
                         <span>{name}</span>
                         <br />
-                        <span>
+                        {/* <span>
                         {street}
                         <br />
                         {city} {state}, {zip}
                         </span>
                         <br />
-                        <span>{phone}</span>
+                        <span>{phone}</span> */}
                         <br />
                         <span>{email}</span>
                     </p>
