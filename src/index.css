@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --black: #040f0f;
   --purple: #9d6381;
   --liteBlue: #EDF6F9;
@@ -24,7 +24,7 @@ code {
 
 /* header/nav styling  */
 
-header {
+/* header {
   background-color: var(--litegreen);
 }
 
@@ -36,10 +36,10 @@ header {
   flex-wrap: wrap;
   background-color: var(--black);
   /* position: sticky; */
-  top: 0;
+  /* top: 0; */
   /* z-index: 100; */
-}
-
+/* } */
+/* 
 .pageTitle {
   flex-wrap: wrap;
   padding-top: 8px;
@@ -58,14 +58,14 @@ header {
   border-radius: 50%;
   max-width: 50px;
   flex-wrap: wrap;
-}
+} */
 
 /* about me styling  */
 
 
 
 /* footer styling */
-
+/* 
 footer {
   margin-top: 20px;
   background-color: var(--black);
@@ -101,14 +101,14 @@ footer a {
   width: 40%;
   margin: auto;
   align-items: center;
-  justify-content: space-around;
-}
+  justify-content: space-around; */
+/* }  */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS & SMALLER */
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) { */
 
   /* this will be applied to any screen smaller than 980px */
-  header {
+  /* header {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
@@ -190,10 +190,10 @@ footer a {
   .ed-heading {
     width: 90%;
     margin: auto;
-  }
+  } */
 
   /* switched to hamburger nav */
-  .hamburger {
+  /* .hamburger {
     display: flex;
     margin: auto;
     z-index: 10;
@@ -204,13 +204,13 @@ footer a {
     margin-left: 25%;
   }
 
-}
+} */
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
 
   /* this will be applied on any screen between 768px and 575px */
-  .heading {
+  /* .heading {
     max-width: 50%;
   }
 
@@ -233,13 +233,13 @@ footer a {
   footer {
     position: relative;
   }
-}
+} */
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) { */
 
   /* this will be applied on any screen smaller than 575px */
-  body {
+  /* body {
     position: relative;
   }
 
@@ -326,4 +326,4 @@ footer a {
     margin-left: 3%;
   }
 
-}
+} */ 
