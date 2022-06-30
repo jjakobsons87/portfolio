@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Jeremy Jakobsons",
-    "description":"I'm an Agile Coach by day, and a Full Stack web dev in training by night! ",
+    "description":"I'm an Agile Coach by day, and a Full Stack web dev in training by night. Welcome to my page, glad you are here! Take a look around and get in touch if you would like to work together! ",
     "image":"avatar.png",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"Throughout my working years, I have always had a strong interest/passion for technology. As an Agile Coach I have been able to help elevate development teams processes and collaboration with other teams/leadership! I am now headed over to the other side of this, and want to help people by creating/improving the tools/resources/software we all use on a daily basis.",
+    "contactmessage":"Like what you see? Want to work together on a project, or work for your organization? Get it touch with me below! ",
     "email": "jjakobsons87@gmail.com",
     "phone": "555-555-5555",
     "github":"https://github.com/jjakobsons87",
@@ -30,7 +30,7 @@
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://instagram.com/jeremyjako",
         "className":"fa fa-instagram"
       },
       {
