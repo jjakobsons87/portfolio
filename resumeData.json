@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name":"Jeremy Jakobsons",
+    "description":"I'm an Agile Coach by day, and a Full Stack web dev in training by night. Welcome to my page, glad you are here! Take a look around and get in touch if you would like to work together! ",
+    "image":"avatar.png",
+    "bio":"Throughout my working years, I have always had a strong interest/passion for technology. As an Agile Coach I have been able to help elevate development teams processes and collaboration with other teams/leadership! I am now headed over to the other side of this, and want to help people by creating/improving the tools/resources/software we all use on a daily basis.",
+    "contactmessage":"Like what you see? Want to work together on a project, or work for your organization? Get it touch with me below! ",
+    "email": "jjakobsons87@gmail.com",
+    "phone": "555-555-5555",
+    "github":"https://github.com/jjakobsons87",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/file/d/1csZSp4XIZqRJSgzwx9sS92dZqO60C4Os/view?usp=sharing",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/jjakobsons87",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jeremy-jakobsons/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/jeremyjako",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University?",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2017",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"School #1 Maybe College?",
+        "degree":"What did you study 101",
+        "graduated":"March 2013",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2018 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2017 - February 2018",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"The B Word",
+        "category":"A Resource Blog/Site for LGBTQIA+",
+        "image":"01.jpg",
+        "url":"https://limitless-journey-42984.herokuapp.com/"
+      },
+      {
+        "title":"Photo Port",
+        "category":"A photographer portfolio",
+        "image":"05.jpg",
+        "url":"https://jjakobsons87.github.io/photo-port/"
+      },
+      {
+        "title":"Cat Name Generator",
+        "category":"Generate a random Cat meme to go with a random cat image",
+        "image":"02.jpg",
+        "url":"https://cwarmbrunn.github.io/cat-name-gene"
+      },
+      {
+        "title":"RunBuddy",
+        "category":"A site built for runners to connect to a trainer",
+        "image":"03.jpg",
+        "url":"https://jjakobsons87.github.io/run-buddy/"
+      },
+      {
+        "title":"Weather Dashboard",
+        "category":"Dashboard to show current/future weather",
+        "image":"04.jpg",
+        "url":"https://jjakobsons87.github.io/weatherDashboard/"
+      },
+
+      {
+        "title":"Food Festival",
+        "category":"A webpage for a food festival to buy tickets and track the schedule",
+        "image":"06.jpg",
+        "url":"https://jjakobsons87.github.io/food-festival/"
+      }
+    ]
+  }
+}
