@@ -35,7 +35,8 @@
 
   ## Screenshot
 
-
+Link to Application: https://jjakobsons87.github.io/portfolio/ 
+![App Screenshot](./public/images/SC.png)
 
   ## Questions 
 
