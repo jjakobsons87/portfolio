@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import About from './components/About';
 // import Resume from './components/Resume';
-// import POrtfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio';
 
 // function App() {
 //   const [categories] = useState([
@@ -74,7 +74,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         {/* <Resume data={this.state.resumeData.resume} /> */}
-        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
+        <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
