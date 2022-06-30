@@ -9,34 +9,6 @@ import About from './components/About';
 // import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 
-// function App() {
-//   const [categories] = useState([
-//     { name: 'About Me' },
-//     { name: 'Portfolio' },
-//     { name: 'Contact' },
-//     { name: 'Resume' }
-//   ]);
-//   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-//   return (
-//     <div>
-//       <Header
-//         categories={categories}
-//         setCurrentCategory={setCurrentCategory}
-//         currentCategory={currentCategory}
-//       ></Header>
-//       <main>
-//         <div>
-//           { currentCategory.name === 'About Me' && 
-//           <About currentCategory={currentCategory}></About> }
-//           {/* <ContactForm></ContactForm> */}
-//         </div>
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// }
-
 class App extends Component {
   constructor(props) {
     super(props);
