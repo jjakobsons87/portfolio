@@ -19,9 +19,9 @@
     "resumedownload":"https://drive.google.com/file/d/1csZSp4XIZqRJSgzwx9sS92dZqO60C4Os/view?usp=sharing",
     "social":[
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name":"github",
+        "url":"https://github.com/jjakobsons87",
+        "className":"fa fa-github"
       },
       {
         "name":"linkedin",
@@ -32,11 +32,6 @@
         "name":"instagram",
         "url":"http://instagram.com/jeremyjako",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/jjakobsons87",
-        "className":"fa fa-github"
       }
     ]
   },
