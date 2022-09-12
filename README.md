@@ -9,19 +9,19 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Screenshot](#screenshot)
-  * [Ques  ions](#questions)
+  * [Questions](#questions)
 
   ## Description
 
-  This is my social  
+  My public project portfolio! 
 
   ## Installation
 
-  To install this code, first clone the repo. Then install the npm packages listed in the contribution section below by performing 'npm i'. 
+  To install this code, first clone the repo. Then install run an "npm i" from the projects root folder to install the appropriate packages. 
 
   ## Usage
 
-  Once installed, you should be able to start the server using the "npm start" command. This should auto open in your browser, or navigate to your localhost in your browser of choice 
+  Once installed, you should be able to start the server using the "npm start" command. This should auto open in your browser, or navigate to localhost in your browser of choice.
 
   ## License
 
@@ -31,11 +31,12 @@
   ## Contributing 
   NPM Packages used: 
   Node, Express, jquery, React 
-  link to resume template https://github.com/nordicgiant2/react-nice-resume 
+  Link to resume template https://github.com/nordicgiant2/react-nice-resume 
 
   ## Screenshot
 
-Link to Application: https://jjakobsons87.github.io/portfolio/ 
+Link to Live Application: https://jjakobsons87.github.io/portfolio/ 
+
 ![App Screenshot](./public/images/SC.png)
 
   ## Questions 
